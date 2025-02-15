@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: rgb(26 50 76);
+    padding: 5px 10px;
+    color: white;
+}
+
+.title-box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-box .title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.title-box .search{
+    border-color: white;
+}
+
+.title-box .search input{
+    border: none;
+}
+
+.title-box .search input:focus{
+    outline: none;
+}
+
+.title-box div{
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+    border-width:0 2px 0 2px ;
+    border-color: rgb(90 110 134);   
+    border-style: solid;
+    padding: 0 15px;
+    margin: 0 20px;
+}
