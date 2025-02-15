@@ -5,6 +5,7 @@
 
 .activities {
   display: flex;
+  height: 60%;
 }
 
 .content-description {

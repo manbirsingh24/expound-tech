@@ -4,6 +4,25 @@
     border-width: 0 1px 1px 0;
     border-color: rgb(225 225 225);
     border-style: solid;
+    overflow-y: scroll;
+  }
+
+  .activity-container::-webkit-scrollbar {    
+    width: 2px;
+  }
+  
+  .activity-container::-webkit-scrollbar-track {
+    background: rgb(26 50 76);
+    border-radius: 4px;
+  }
+  
+  .activity-container::-webkit-scrollbar-thumb {
+    background: rgb(26 50 76);
+    border-radius: 4px;
+  }
+  
+  .activity-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
   }
   
 
