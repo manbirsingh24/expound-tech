@@ -19,27 +19,34 @@
     gap: 10px;
 }
 
-.title-box .search{
-    border-color: white;
+.navigation-search .search{
+    background-color: white;
+    border-radius: 8px;
+    padding: 4px 8px;
 }
 
-.title-box .search input{
+.navigation-search .search input{
     border: none;
 }
 
-.title-box .search input:focus{
+.navigation-search .search input:focus{
     outline: none;
 }
 
-.title-box div{
+.navigation-search div{
     display: flex;
 }
 
-.navigation{
+.navigation-search{
     display: flex;
-    border-width:0 2px 0 2px ;
-    border-color: rgb(90 110 134);   
-    border-style: solid;
     padding: 0 15px;
     margin: 0 20px;
 }
+
+.icons{
+    
+    border-width:0 2px 0 2px ;
+    border-color: rgb(90 110 134);   
+    border-style: solid;
+}
+
