@@ -40,8 +40,8 @@ const MainPage = () => {
             <div className="nurturing">Nurturing</div>
             <div className="convert">Convert</div>
           </div>
-          <div>
-            <img src="" alt="tick" />
+          <div className="mark">
+            <img src="" alt="" />
             <span>Mark as Converted</span>
           </div>
         </div>

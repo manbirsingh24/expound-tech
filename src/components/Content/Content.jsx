@@ -2,9 +2,10 @@ import "./content.css";
 import ActivityLog from "../ActivityLogs/ActivityLogs";
 import ActivityNavigation from "../AvivityNavigation/ActivityNavigation";
 
-import edit from '../../assets/images/edit.svg'
-import info from '../../assets/images/info.svg'
-import person from '../../assets/images/person.svg'
+import edit from "../../assets/images/edit.svg";
+import info from "../../assets/images/info.svg";
+import person from "../../assets/images/person.svg";
+import Overdue from "../Overdue/Overdue";
 
 const Content = () => {
   return (
@@ -75,15 +76,18 @@ const Content = () => {
             <p>10 empty field, fill the pending information</p>
           </div>
           <div className="edit-button">
-            <img src= {edit} alt="pen" />
+            <img src={edit} alt="pen" />
           </div>
         </div>
       </div>
 
-      <div className="activities">
-        <ActivityNavigation />
-
-        <ActivityLog />
+      <div className="activities-container" style={{height:"78vh"}}>
+        <div className="activities">
+          <ActivityNavigation />
+          <ActivityLog />
+        </div>
+        <Overdue />
+        
       </div>
     </div>
   );

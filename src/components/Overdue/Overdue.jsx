@@ -1,4 +1,6 @@
 import "./overdue.css"
+import call from '../../assets/images/call.svg'
+
 const activities = [
   {
     title: "Share Catalogue",
@@ -41,11 +43,11 @@ const Overdue = () => {
           View Upcoming
         </a>
       </div>
-      <div className="grid">
+      <div className="overdue-grid">
         {activities.map((activity, index) => (
           <div key={index} className="card">
             <div className="cardHeader">
-              <span className="phoneIcon">&#128222;</span>
+              <img src={call} className="phoneIcon"/>
               <span className="cardTitle">{activity.title}</span>
             </div>
             <div className="details heading">

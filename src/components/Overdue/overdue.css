@@ -1,6 +1,7 @@
 .overdue-container {
     width: 100%;
     padding: 8px 16px;
+    height: 37%;
 }
 
 .overdue-header {
@@ -15,11 +16,13 @@
     font-weight: bold;
 }
 
-.grid {
+.overdue-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 16px;
     padding: 16px;
+    overflow: auto;
+    height: 100%;
 }
 
 .card {
@@ -44,7 +47,7 @@
     font-weight: bold;
 }
 
-.details {
+.detailsss {
     display: flex;
     width: 100%;
     border-top: 1px solid #dfdfdf;
@@ -52,16 +55,18 @@
     gap: 16px;
 }
 
-.text {
+.overdue-container .text {
     display: flex;
     flex-direction: column;
 }
 
-.heading {
+.overdue-container .heading {
     color: rgb(26 50 76);
     font-weight: 600;
 }
 
-.cardText {
+.overdue-container .cardText {
     color:#a5a0a0
 }
+
+/* .overdue-container */

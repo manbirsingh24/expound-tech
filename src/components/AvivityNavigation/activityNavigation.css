@@ -7,23 +7,7 @@
     overflow-y: scroll;
   }
 
-  .activity-container::-webkit-scrollbar {    
-    width: 2px;
-  }
   
-  .activity-container::-webkit-scrollbar-track {
-    background: rgb(26 50 76);
-    border-radius: 4px;
-  }
-  
-  .activity-container::-webkit-scrollbar-thumb {
-    background: rgb(26 50 76);
-    border-radius: 4px;
-  }
-  
-  .activity-container::-webkit-scrollbar-thumb:hover {
-    background: #555;
-  }
   
 
   .top-tabs {

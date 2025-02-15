@@ -4,6 +4,10 @@ import pin from '../../assets/images/pin.svg'
 import layer from '../../assets/images/layer.svg'
 import shop from '../../assets/images/shop.svg'
 import briefCase from "../../assets/images/BriefCase.svg";
+import box from "../../assets/images/box.svg";
+import user from "../../assets/images/user.svg";
+import building from "../../assets/images/building.svg";
+
 
 const Sidebar = () => {
   return (
@@ -18,16 +22,16 @@ const Sidebar = () => {
             <img src={briefCase} alt="business" />
         </div>
         <div className='building'>
-            <img src="" alt="building" />
+            <img src={building} alt="" />
         </div>
         <div className='personal'>
-            <img src="" alt="personal" />
+            <img src={user} alt="" />
         </div>
         <div className='shop'>
-            <img src={shop} alt="shop" />
+            <img src={shop} alt="" />
         </div>
         <div className='list'>
-            <img src="" alt="list" />
+            <img src={box} alt="" />
         </div>
     </div>
   )

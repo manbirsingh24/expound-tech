@@ -1,50 +1,52 @@
 .navbar {
-    display: flex;
-    width: 100%;
-    background-color: rgb(26 50 76);
-    padding: 5px 10px;
-    color: white;
-    justify-content: space-between;
+  display: flex;
+  width: 100%;
+  background-color: rgb(26 50 76);
+  padding: 5px 10px;
+  color: white;
+  justify-content: space-between;
 }
 
 .title-box {
-    display: flex;
+  display: flex;
+  width: 50%;
+  align-items: center;
+  gap: 10px;
 }
 
 .navigation-search {
-    display: flex;
-    align-items: center;
-    gap: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .search {
-    display: flex;
-    background-color: #fff;
-    border-radius: 8px;
-
+  display: flex;
+  background-color: #fff;
+  border-radius: 8px;
 }
 
 .search input {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 .icons {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    gap: 14px;
-    border-left: 0.5px solid #fff;
-    border-right: 0.5px solid #fff;
-    padding: 0px 14px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  gap: 14px;
+  border-left: 0.5px solid #fff;
+  border-right: 0.5px solid #fff;
+  padding: 0px 14px;
 }
 
 .icon {
-    width: 24px;
-    height: 24px;
+  width: 24px;
+  height: 24px;
 }
 
 .icon img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }

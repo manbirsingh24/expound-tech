@@ -76,3 +76,12 @@
   color: rgb(132 132 132);
   border-radius: 8px;
 }
+
+.mark{
+  background-color: #1a324c;
+  padding: 5px;
+  border-radius: 8px;
+  display: flex;
+  gap: 4px;
+  color: white;
+}

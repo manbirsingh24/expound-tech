@@ -1,0 +1,18 @@
+<svg 
+  width="24" 
+  height="24" 
+  viewBox="0 0 64 64" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Top block -->
+  <rect x="24" y="14" width="16" height="16" fill="#FFA500" />
+  
+  <!-- Bottom left block -->
+  <rect x="14" y="30" width="16" height="16" fill="#FFA500" />
+  
+  <!-- Bottom right block -->
+  <rect x="34" y="30" width="16" height="16" fill="#FFA500" />
+  
+  <!-- Baseline -->
+  <rect x="10" y="50" width="44" height="4" fill="#000" />
+</svg>

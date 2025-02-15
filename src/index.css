@@ -11,5 +11,22 @@
 
 body{
   height: 100vh;
-  width: 100vw;
+  max-height: 100%;
+}
+::-webkit-scrollbar {    
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(26 50 76);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(26 50 76);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
