@@ -1,0 +1,124 @@
+
+.activity-container {
+    width: 100%;
+    border-width: 0 1px 1px 0;
+    border-color: rgb(225 225 225);
+    border-style: solid;
+  }
+  
+
+  .top-tabs {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+
+  }
+  
+  .top-tab {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .top-tab:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .top-tab.active {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    color: #000;
+  }
+  
+
+  .activity-section {
+    padding: 1rem;
+  }
+  
+
+  .activity-tabs {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .activity-tab {
+    display: flex;
+    border: 1px solid #dfdfdf;
+    border-radius: 8px;
+    cursor: pointer;
+    align-items: center;
+    
+  }
+
+  .activity-tab .left {
+    width: 40%;
+    background-color: rgb(219 219 219);
+  }
+
+  .activity-tab .right {
+    width: 60%;
+  }
+  
+  .activity-tab:hover {
+    background-color: #f0f0f0;
+  }
+  
+  
+
+  .log-call-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .side-by-side {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .form-col {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+  }
+  
+  .form-col:not(:last-child) {
+    margin-right: 16px;
+  }
+  
+  label {
+    font-weight: 600;
+    font-size: 12px;
+  }
+  
+  input,
+  select,
+  textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font: inherit;
+    width: 100%;
+  }
+  
+  .submit-btn {
+    width: 100px;
+    padding: 8px 12px;
+    background-color: #1a324c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  

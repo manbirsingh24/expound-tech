@@ -1,5 +1,7 @@
 import './sidebar.css'
 
+import pin from '../../assets/images/pin.svg'
+
 const Sidebar = () => {
   return (
     <div className='sidebar'>
@@ -7,7 +9,7 @@ const Sidebar = () => {
             <img src="" alt="stack" />
         </div>
         <div className='pin'>
-            <img src="" alt="pin" />
+            <img src={pin} alt="pin" />
         </div>
         <div className='business'>
             <img src="" alt="business" />

@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="title-box">
         <div className="title">
           <img src="" alt="grid-img" />
-          <h5>Expount Technivo</h5>
+          <h2>Expount Technivo</h2>
         </div>
       </div>
       <div className="navigation-search">

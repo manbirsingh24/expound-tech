@@ -1,4 +1,3 @@
-import React from "react";
 import Sidebar from "../Sidebar/Sidebar.jsx";
 import Content from "../Content/Content.jsx";
 import "./mainPage.css";
@@ -18,7 +17,7 @@ const MainPage = () => {
           <div className="breadcrumbs">Breadcrumb</div>
           <div className="headerInfo">
             <div className="info-title">
-              <span>LE-1023</span>
+              <h1>LE-1023</h1>
             </div>
             <div className="header-icons">
               <img src={tag} alt="one" />
