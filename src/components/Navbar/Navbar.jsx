@@ -8,10 +8,8 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="title-box">
-        <div className="title">
-          <img src="" alt="grid-img" />
-          <h2>Expount Technivo</h2>
-        </div>
+        <img src="" alt="grid-img" />
+        <h2>Expount Technivo</h2>
       </div>
       <div className="navigation-search">
         <div className="search">
@@ -19,13 +17,19 @@ const Navbar = () => {
           <img src={search} alt="search" />
         </div>
         <div className="icons">
-          <img src={notification} alt="bell" />
-          <img src={calender} alt="claender" />
-          <img src={setting} alt="gear" />
+          <div className="icon">
+            <img src={notification} alt="bell" />
+          </div>
+          <div className="icon">
+            <img src={calender} alt="claender" />
+          </div>
+          <div className="icon">
+            <img src={setting} alt="gear" />
+          </div>
         </div>
-      <div className="avatar">
-        <img src="" alt="avatar" />
-      </div>
+        <div className="avatar">
+          <img src="" alt="avatar" />
+        </div>
       </div>
     </div>
   );
