@@ -38,36 +38,50 @@
   .activity-tabs {
     display: flex;
     margin-bottom: 1rem;
+    justify-content: space-between;
   }
   
   .activity-tab {
     display: flex;
+    justify-content: space-between;
     border: 1px solid #dfdfdf;
     border-radius: 8px;
+    width: 160px;
     cursor: pointer;
+
     align-items: center;
-    
+
   }
 
-  .activity-tab .left {
-    width: 40%;
+  .activity-tab .left-green{
+    display: flex;
+    background-color: rgb(226 251 229);
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+
+  .activity-tab .left-grey{
+    display: flex;
     background-color: rgb(219 219 219);
-  }
-
-  .activity-tab .right {
-    width: 60%;
+    padding: 10px 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
   }
   
+  .activity-tab .right{
+    padding: 10px 10px;
+    width: 100%;
+  }
+
   .activity-tab:hover {
     background-color: #f0f0f0;
   }
-  
-  
 
   .log-call-form {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 10px;
   }
   
   .form-row {
@@ -86,10 +100,6 @@
     flex-direction: column;
     gap: 8px;
     flex: 1;
-  }
-  
-  .form-col:not(:last-child) {
-    margin-right: 16px;
   }
   
   label {

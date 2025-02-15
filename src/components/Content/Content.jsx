@@ -2,6 +2,10 @@ import "./content.css";
 import ActivityLog from "../ActivityLogs/ActivityLogs";
 import ActivityNavigation from "../AvivityNavigation/ActivityNavigation";
 
+import edit from '../../assets/images/edit.svg'
+import info from '../../assets/images/info.svg'
+import person from '../../assets/images/person.svg'
+
 const Content = () => {
   return (
     <div className="content">
@@ -11,7 +15,7 @@ const Content = () => {
             <p>test</p>
             <h1>Ramesh Sharma</h1>
             <div className="profile">
-              <img src="" alt="ptofile" />
+              <img src={person} alt="ptofile" />
               <b>Anamnaaj Mansuri</b>
               <span className="event">Event</span>
             </div>
@@ -67,12 +71,12 @@ const Content = () => {
         </div>
         <div className="content-footer">
           <div className="info">
-            <img src="" alt="i" />
+            <img src={info} alt="i" />
             <p>10 empty field, fill the pending information</p>
           </div>
-          <button className="edit-button">
-            <img src="" alt="pen" />
-          </button>
+          <div className="edit-button">
+            <img src= {edit} alt="pen" />
+          </div>
         </div>
       </div>
 

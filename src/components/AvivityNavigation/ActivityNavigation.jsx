@@ -1,5 +1,8 @@
 import  { useState } from "react";
 import "./activityNavigation.css";
+import call from '../../assets/images/call.svg'
+import email from '../../assets/images/email.svg'
+import event from '../../assets/images/event.svg'
 
 function ActivityNavigation() {
   const [activeTab, setActiveTab] = useState("Activity");
@@ -44,15 +47,15 @@ function ActivitySection({content}) {
     <div className="activity-section">
       <div className="activity-tabs">
         <div className="activity-tab">
-            <div className="left"><img src="" alt="phone" /></div>
+            <div className="left-green"><img src={call} alt="phone" /></div>
             <div className="right">Log a Call</div>
         </div>
         <div className="activity-tab">
-            <div className="left"><img src="" alt="phone" /></div>
+            <div className="left-grey"><img src= {email} alt="email" /></div>
             <div className="right">Email</div>
         </div>
         <div className="activity-tab">
-            <div className="left"><img src="" alt="phone" /></div>
+            <div className="left-grey"><img src={event} alt="event" /></div>
             <div className="right">Event</div>
         </div>
       </div>

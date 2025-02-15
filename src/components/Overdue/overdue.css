@@ -1,0 +1,67 @@
+.overdue-container {
+    width: 100%;
+    padding: 8px 16px;
+}
+
+.overdue-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerLink {
+    text-decoration: none;
+    color: rgb(26 50 76);
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    padding: 12px 8px;
+}
+
+.phoneIcon {
+    margin-right: 8px;
+    font-size: 20px;
+}
+
+.cardTitle {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.details {
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #dfdfdf;
+    padding: 16px;
+    gap: 16px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    color: rgb(26 50 76);
+    font-weight: 600;
+}
+
+.cardText {
+    color:#a5a0a0
+}

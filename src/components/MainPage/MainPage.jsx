@@ -7,6 +7,7 @@ import replay from "../../assets/images/replay.svg"
 import tag from "../../assets/images/tag.svg"
 import group from "../../assets/images/group.svg"
 import list from "../../assets/images/list.svg"
+import pin from "../../assets/images/pin.svg"
 
 const MainPage = () => {
   return (
@@ -21,7 +22,7 @@ const MainPage = () => {
             </div>
             <div className="header-icons">
               <img src={tag} alt="one" />
-              <img src="" alt="two" />
+              <img src={pin} alt="two" />
               <img src={group} alt="three" />
               <img src={list} alt="four" />
               <img src={replay} alt="" />
